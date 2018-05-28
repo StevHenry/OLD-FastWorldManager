@@ -1,0 +1,42 @@
+main: fr.lolilolulolilol.fastworldmanager.FastWorldManager
+name: FastWorldManager
+author: lolilolulolilol
+version: 1.0
+commands:
+  wc:
+    description: Fast weather clear.
+    permission: command.fastworldmanager.wc
+  d:
+    description: Fast time set 6000.
+    permission: command.fastworldmanager.d
+  n:
+    description: Fast time set 18000.
+    permission: command.fastworldmanager.n
+  t:
+    description: Fast custom time set.
+    permission: command.fastworldmanager.n
+  setday:
+    description: Define world's day.
+    permission: command.fastworldmanager.setday
+  setrain:
+    description: Enable or disable rain in world.
+    permission: command.fastworldmanager.setrain
+permissions:
+  command.fastworldmanager.wc:
+    default: op
+    description: Allow /wc command.
+  command.fastworldmanager.d:
+    default: op
+    description: Allow /d command.
+  command.fastworldmanager.n:
+    default: op
+    description: Allow /n command.
+  command.fastworldmanager.t:
+    default: op
+    description: Allow /t command.
+  command.fastworldmanager.setday:
+    default: op
+    description: Allow /setday.
+  command.fastworldmanager.setrain:
+    default: op
+    description: Autorise la commande /setrain.
